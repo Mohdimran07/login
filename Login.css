@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2px;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.left-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-image: url('aero.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7dc1b4;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px 10px 0 0;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+}
+
+p{
+    margin-top: 9px;
+    text-align: center;
+}
+input{
+    width: 95%;
+    height: 40px;
+    margin-top: 1rem;
+     border: 1.5px dotted black;
+     font-style: italic;
+     border-radius: 5px;
+}
+
+.btn{
+    height: 30px;
+    width: 90%;
+    background-color: rgba(17, 59, 117, 0.2);
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.warn{
+    width: 50%;
+    background-color: #151556;
+    color: #db0707;
+    margin-top: 7px;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
